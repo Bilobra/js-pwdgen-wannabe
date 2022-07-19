@@ -39,3 +39,20 @@ let num = Math.round(Math.random() * 100)
 console.log(num)
 
 
+// GENERARE PASSWORD 
+
+// dichiarare la variable con id = password con DOCUMENT + GET e prendendo la voce che rappresenta l'Id
+
+const password = document.getElementById('password')
+
+// controllare quale valore attribuire all' Id = password con CONSOLE.DIR
+
+console.dir(password)
+
+// stampiamo del contenuto nel nostro h1 con id password ,
+//  trovando il valore che rappresenta il nostro testo, nell'elenco generato da console.dir
+// nel nostro caso è INNER.HTML
+
+password.innerHTML = 'password generata:' + myName + mySurname + myColor + num
+
+console.log(password.innerHTML)
