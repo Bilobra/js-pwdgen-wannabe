@@ -20,7 +20,7 @@ console.log('nome utente: ' + myName)
 
 // COGNOME UTENTE
 // dichiarazione variabile
-let mySurname = prompt('Qual è il tuoo congome?')
+let mySurname = prompt('Qual è il tuo congome?')
 
 console.log('cognome utente: ' + mySurname)
 
@@ -43,16 +43,16 @@ console.log(num)
 
 // dichiarare la variable con id = password con DOCUMENT + GET e prendendo la voce che rappresenta l'Id
 
-const password = document.getElementById('password')
+const passwordDomElement = document.getElementById('password')
 
 // controllare quale valore attribuire all' Id = password con CONSOLE.DIR
 
-console.dir(password)
+console.dir(passwordDomElement)
 
 // stampiamo del contenuto nel nostro h1 con id password ,
 //  trovando il valore che rappresenta il nostro testo, nell'elenco generato da console.dir
 // nel nostro caso è INNER.HTML
 
-password.innerHTML = 'password generata:' + myName + mySurname + myColor + num
+passwordDomElement.innerHTML = 'password generata:  ' + myName + mySurname + myColor + num
 
-console.log(password.innerHTML)
+console.log(passwordDomElement.innerHTML)
