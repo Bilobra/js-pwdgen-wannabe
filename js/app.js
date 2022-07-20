@@ -34,7 +34,7 @@ console.log('colore preferito: ' + myColor)
 
 // NUMERO CASUALE
 
-let num = Math.round(Math.random() * 100)
+let num = Math.floor(Math.random() * 100)
 
 console.log(num)
 
